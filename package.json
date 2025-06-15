@@ -1,0 +1,64 @@
+{
+  "name": "@softovault/client",
+  "version": "0.2.2",
+  "description": "Official JavaScript SDK for SoftoVault - Secure secrets management",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "example.js",
+    "INTEGRATION.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "secrets",
+    "environment",
+    "vault",
+    "sdk",
+    "api",
+    "security",
+    "config",
+    "softovault",
+    "secrets-management",
+    "env-vars"
+  ],
+  "author": "Al Wassi Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softovault/softovault-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/softovault/softovault-js/issues"
+  },
+  "homepage": "https://softovault.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "node-fetch": {
+      "optional": true
+    }
+  }
+}
