@@ -40,6 +40,6 @@ console.log(secrets) // { "API_KEY": "value", "DB_URL": "value", ... }
 ## Support
 
 - Email: support@softovault.com
-- Docs: https://docs.softovault.com
-- Discord: https://discord.gg/softovault
+- Docs: https://softovault.com/sdk
+
 
